@@ -1,0 +1,37 @@
+body {
+    font-family: "Cormorant Garamond", serif;
+    color: #666;
+    font-weight: 300;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 50px;
+}
+
+hr {
+    border: 0;
+    border-bottom: 2px solid #feb5ae;
+}
+
+.hover-opacity figure img {
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.hover-opacity figure:hover img {
+    -webkit-filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(3px);
+}
